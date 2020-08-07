@@ -1,9 +1,10 @@
 * {
+  
   box-sizing: border-box;
 }
 
 body {
-  background-color: rgb(197, 251, 249);
+  background-color: 	#FFFAFA;
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
@@ -22,7 +23,7 @@ button:focus {
 }
 
 header {
-  background-image: url('https://images.unsplash.com/photo-1510915361894-db8b60106cb1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80');
+  background-image: url('https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -80,11 +81,14 @@ form button {
 }
 
 .btn {
-  background-color: #7230f5;
+  background-color: #F5A5A8;
   border: 0;
   border-radius: 10px;
   color: #fff;
   padding: 4px 10px;
+}
+.btn:hover{
+  background-color: #f3666b ;
 }
 
 ul.songs {
